@@ -1,0 +1,24 @@
+@charset "UTF-8"; 
+@import url("utils/normalize.css");
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300i,400,700');
+
+/*Soft reset*/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
