@@ -17,8 +17,21 @@ body {
 
 .main-nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(5, 5, 5);
+  height: 50px;
+  width: auto;
 }
 
+.main-nav__list{
+  list-style: none;
+}
 
+.main-nav__icon{
+  height: 24px;
+  width: auto;
+}
 
+.main-nav__logo{
+}
