@@ -13,25 +13,54 @@ html {
 
 body {
   font-family: 'IBM Plex Mono', monospace;
+  font-size: 18px;
 }
 
 .main-nav {
+  font-size: 1.3em;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid rgb(5, 5, 5);
+  justify-content: space-evenly;
   height: 50px;
-  width: auto;
 }
 
 .main-nav__list{
-  list-style: none;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .main-nav__icon{
-  height: 24px;
-  width: auto;
+  margin-top: 15px;
+  height: 20px;
+}
+
+.main-nav__links{
+  text-decoration: none;
+  color: white;
+}
+
+.main-nav__list-item{
+  padding: 12px 15px;
+  text-align: center;
+}
+
+.main-nav__list-item--blue{
+  background-color: #1C77C3;
+}
+
+.main-nav__list-item--green{
+  background-color: #00AA00;
+}
+
+.main-nav__list-item--orange{
+  background: #DD2E02;
 }
 
 .main-nav__logo{
+  background-color: black;
+  flex: 1;
+  text-align: center;
 }
