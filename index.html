@@ -12,12 +12,13 @@
     <header class="">
         <nav class="main-nav">
             <a class="main-nav__logo" href="#"><img class="main-nav__icon"  src="images/logo.svg" alt="logo with ar letters"></a>
-            <ul class="main-nav__list">
+            <a class="main-nav__home" href="#">Inicio</a>
+            <ul class="main-nav__list main-nav__list--hide" id="nav">
                 <li class="main-nav__list-item main-nav__list-item--blue" id="first"><a class="main-nav__links" href="#">Proyectos</a></li>
-                <li class="main-nav__list-item main-nav__list-item--green" id="second"><a class="main-nav__links" href="#">Contacto</a></li>
+                <li class="main-nav__list-item main-nav__list-item--blue" id="second"><a class="main-nav__links" href="#">Contacto</a></li>
                 <li class="main-nav__list-item main-nav__list-item--orange" id="third"><a class="main-nav__links" href="#">Curriculum</a></li>
             </ul>
-            <a class="main-nav__logo" href="javascript:void(0);" onclick="showHideNav()"><img class="main-nav__icon" src="images/chevron-down-solid.svg" alt="chevron"></a> 
+            <a class="main-nav__toggle" onclick="showHideNav();" href="javascript:void(0);" ><i class="main-nav__icon fas fa-chevron-down"></i></a> 
         </nav>
     </header>
     <main class="main">
@@ -46,4 +47,5 @@
         <a href="#">LinkedIn</a>
     </footer>
 </body>
+<script defer src="https://use.fontawesome.com/releases/v5.8.0/js/all.js" integrity="sha384-ukiibbYjFS/1dhODSWD+PrZ6+CGCgf8VbyUH7bQQNUulL+2r59uGYToovytTf4Xm" crossorigin="anonymous"></script>
 </html>

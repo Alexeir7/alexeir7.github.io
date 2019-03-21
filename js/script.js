@@ -1,14 +1,14 @@
 function showHideNav() {
-    var x = document.getElementById("first");
-    var y = document.getElementById("second");
-    var z = document.getElementById("third");
-    if (y.style.display === "flex") {
-        x.style.flexGrow = "300%";
-        y.style.display = "none";
-        z.style.display = "none";
-    } else {  
-        x.style.flexGrow = "300%";
-        y.style.display = "flex";
-        z.style.display = "flex";
+    var nav = document.getElementById("nav");
+
+
+    console.log(nav.classList);
+
+    if (nav.classList.contains('main-nav__list--hide')) {
+        nav.classList.remove('main-nav__list--hide');
+        nav.classList.add('main-nav__list--show');
+    } else {
+        nav.classList.add('main-nav__list--hide');
+        nav.classList.remove('main-nav__list--show');
     }
   }

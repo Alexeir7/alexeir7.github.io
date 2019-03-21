@@ -15,6 +15,7 @@ body {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 18px;
   background-color: #0c1821;
+  height: 2000px;
 }
 
 .main-nav {
@@ -24,31 +25,58 @@ body {
   justify-content: space-around;
   align-items: center;
   height: 50px;
-  
+  position: fixed;
+  top:0;
+  width: 100%;
+  background-color: black;
+  z-index: 100;
+  opacity: 0.99;
 }
 
 .main-nav__list{
+  align-items: center;
+  align-self: flex-start;
   display: flex;
   flex: 1;
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
   flex-direction: column;
-  align-self: flex-start;
-  position: relative;
+  justify-content: center;
+  list-style-type: none;
   margin: 0;
-  height: 300%;
+  padding: 0;
+  position: absolute;
+  width: calc(100% - 110px);
+  transition: top 0.75s ease-in-out;
+  z-index: -1;
+}
+
+.main-nav__list--hide{
+  top:-200px;
+}
+
+.main-nav__list--show{
+  top:50px;
 }
 
 .main-nav__icon{
-  height: 24px;
+  height: 18px;
   width: auto;
   margin: auto;
 }
 
-.main-nav__links{
+.main-nav__home{
+  flex:1;
+  text-align: center;
   text-decoration: none;
   color: white;
+  background: black;
+  width: 100%;
+  height: 100%;
+  line-height: 50px;
+}
+
+.main-nav__links{
+  text-decoration: none;
+  color: white
 }
 
 .main-nav__list-item{
@@ -59,17 +87,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: top 1s ease;
-}
-
-.main-nav__list-item:first-child{
-  flex-grow: 0;
-  
-}
-
-.main-nav__list-item:not(:first-child){
-  display: none;
-  
 }
 
 .main-nav__list-item--blue{
@@ -84,11 +101,11 @@ body {
   background: #DD2E02;
 }
 
-.main-nav__logo{
+.main-nav__logo, .main-nav__toggle {
   flex: initial;
-  width: 50px;
-  background-color: black;
+  width: 55px;
   display: flex;
+  color: white;
   height: 100%;
 }
 
