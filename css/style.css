@@ -15,7 +15,6 @@ body {
   font-family: 'IBM Plex Mono', monospace;
   font-size: 18px;
   background-color: #0c1821;
-  height: 2000px;
 }
 
 .main-nav {
@@ -158,10 +157,16 @@ h1 {
 .main {
   padding: 0 40px;
   color: white;
+  padding-top: 60px;
 }
 
 .footer{
   background-color: black;
   color: white;
   padding: 5px 40px;
+}
+
+.footer__icon {
+  color: white;
+  text-decoration: none;
 }
