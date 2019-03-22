@@ -45,22 +45,60 @@ body {
   padding: 0;
   position: absolute;
   width: calc(100% - 110px);
-  transition: top 0.75s ease-in-out;
+  transition: top 585ms cubic-bezier(.3,-0.16,.69,1.19);
   z-index: -1;
+  overflow:hidden;
 }
 
 .main-nav__list--hide{
-  top:-200px;
+  top: -150px;
 }
 
 .main-nav__list--show{
-  top:50px;
+  top: 50px;
+  
 }
 
 .main-nav__icon{
   height: 18px;
   width: auto;
   margin: auto;
+}
+
+.main-nav__chevron{
+  margin: auto;
+}
+
+.main-nav_chevron--rotate{
+  animation: rotar180g 400ms ease-out;
+  animation-fill-mode: forwards;
+  transform-origin: center;
+}
+
+.main-nav_chevron--original-position {
+  animation: rotar0g 400ms ease-out;
+  animation-fill-mode: forwards;
+  transform-origin: center;
+}
+
+@keyframes rotar180g {
+  0% {
+      transform: rotate(0deg);
+      
+  }
+  100% {
+    transform: rotate(180deg);
+    
+  }
+}
+
+@keyframes rotar0g {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .main-nav__home{
@@ -107,6 +145,10 @@ body {
   display: flex;
   color: white;
   height: 100%;
+}
+
+.main-nav__toggle {
+  cursor: pointer;
 }
 
 h1 {
