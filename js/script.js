@@ -2,10 +2,10 @@ function showHideNav() {
     var nav = document.getElementById("nav");
     var chevron = document.getElementById("chevron");
 
-    if (nav.classList.contains('nav__list--hide')) {
-        nav.classList.remove('nav__list--hide');
+    if (nav.classList.contains('nav--hide')) {
+        nav.classList.remove('nav--hide');
     } else {
-        nav.classList.add('nav__list--hide');
+        nav.classList.add('nav--hide');
     }
 
     if (chevron.classList.contains('header__toggle__chevron--rotate')) {

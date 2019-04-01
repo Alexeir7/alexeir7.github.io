@@ -85,13 +85,17 @@ body {
   transition: top 500ms cubic-bezier(.12,-0.17,.81,1.23);
 }
 
+.nav--hide{
+  top: -150px;
+}
+
 .nav__list{
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.nav__list--hide{
+.nav--hide{
   top: -150px;
 }
 
