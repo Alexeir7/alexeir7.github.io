@@ -10,38 +10,31 @@
     <title>Alexei Rodriguez</title>
 </head>
 <body>
-    <header class="">
-        <nav class="main-nav">
-            <a class="main-nav__logo" href="#"><img class="main-nav__icon"  src="images/logo.svg" alt="logo with ar letters"></a>
-            <a class="main-nav__home" href="#">Inicio</a>
-            <ul class="main-nav__list main-nav__list--hide" id="nav">
-                <li class="main-nav__list-item " id="first"><a class="main-nav__links" href="#">Proyectos</a></li>
-                <li class="main-nav__list-item " id="second"><a class="main-nav__links" href="#">Contacto</a></li>
-                <li class="main-nav__list-item main-nav__list-item--orange" id="third"><a class="main-nav__links" href="#">Curriculum</a></li>
-            </ul>
-            <a class="main-nav__toggle" onclick="showHideNav();"> <i id="icon" class="main-nav__chevron fas fa-chevron-down"></i></a> 
-        </nav>
+    <header class="header">
+        <a class="header__logo" href="#"><img class="header__logo__image"  src="images/logo.svg" alt="ar"></a>
+        <a class="header__home" href="#">Inicio</a>
+        <a class="header__toggle" onclick="showHideNav();"> <i id="chevron" class="fas fa-chevron-down fa-lg"></i></a>
     </header>
+    <nav class="nav" id="nav">
+        <ul class="nav__list" id="nav">
+            <li class="nav__list__item" id="first"><a class="nav__list__item__link" href="#">Proyectos</a></li>
+            <li class="nav__list__item" id="second"><a class="nav__list__item__link" href="#">Contacto</a></li>
+            <li class="nav__list__item" id="third"><a class="nav__list__item__link" href="#">Curriculum</a></li>
+        </ul>
+    </nav>
     <main class="main">
         <article>
             <h1>Desarrollador de software en Honduras</h1>
-            <section>
-                <p>Hola! Mi nombre es Alexei Rodriguez Bonilla. Soy un desarrollador de software que constantemente está en <span>movimiento</span>, <span>aprendiendo</span> y <span>experimentando</span> nuevas tecnologías.</p>
-            </section>
-            <section>
-                <p>Actualmente estoy trabajando como <span>consultor</span> en BAC Credomatic dando soporte y mantenimiento de un sistema en .NET utilizado a nivel nacional por la empresa y tambien haciendo <span>proyectos web</span> (Javascript, PHP) para distintos clientes.</p>
-            </section>
-            <section>
-                <p>Graduado de la <span>UNICAH</span> en Ciencias de la Computación.</p>
-            </section>
-            <section>
-                <p>Entre mis otros pasatiempos está la <span>fotografía</span></p>
-            </section>
+                <p>Hola! Mi nombre es Alexei Rodriguez Bonilla.</p>
+                <p>Soy un desarrollador de software constantemente aprendiendo y experimentando con nuevas tecnologías.</p>
+                <p>Actualmente estoy trabajando como proveedor en BAC Credomatic dando mantenimiento y soporte a un sistema de RRHH utilizado a nivel nacional.</p>
+                <p>Graduado de la UNICAH en Ciencias de la Computación.</p>
+                <p>Entre mis otros pasatiempos está la fotografía</p>
         </article>
     </main>
 
     <footer class="footer">
-        <h4>Alexei Rodriguez</h4>
+        <h1>Alexei Rodriguez</h1>
         <p>© Copyright 2018</p>
         <p class="footer__icon"><i class="far fa-envelope"></i> alexei.rodz95@gmail.com</p>
         <p class="footer__icon"><i class="fas fa-phone"></i>(+504) 9483-3503</p>
