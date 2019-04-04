@@ -5,6 +5,7 @@
 - [ ] Font Size and Weight
 - [ ] Line Height
 - [ ] Icon Sizing
+- [ ] Spacing and sizing
 - [ ] Box Shadows (Height of elements)
 
 Probably add more items.
