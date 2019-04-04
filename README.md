@@ -1,10 +1,10 @@
 # Personal Website __IN DEVELOPMENT__ [alexeir7.github.io](https://alexeir7.github.io/)
 
-**For now it only looks good in mobile**
+**For now it only looks good in mobile.**
 
 My personal website. Using just HTML (Semantic), CSS (Flexbox, BEM naming styling) and JavaScript.
 
-Will use static generator like Gatsby in the future and fetc the information from markdown is this repository, but right now I'm focusing just in the design.
+Will use static generator like Gatsby in the future and fetch the information from markdown is this repository, but right now I'm focusing just in the design.
 
 ## TO-DO Design system
 - [ ] Color palette
@@ -20,9 +20,9 @@ Probably add more items.
 - [x] Navbar
 - [x] Home Page
 - [ ] Favicon
+- [ ] Dark/Light mode switch
+- [ ] Change text depending on region ENG-ES(LA)
 - [ ] Footer
 - [ ] Projects page
 - [ ] Link Resume
 - [ ] Responsive layout (just works for mobile now)
-
-
