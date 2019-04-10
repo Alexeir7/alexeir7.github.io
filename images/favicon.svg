@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 68.791671 42.615803"
+   height="42.615807mm"
+   width="68.791672mm"
+   sodipodi:docname="favicon.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <sodipodi:namedview
+     pagecolor="#bfbfbf"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview17"
+     showgrid="false"
+     inkscape:zoom="3.363861"
+     inkscape:cx="158.60755"
+     inkscape:cy="65.601671"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <flowRoot
+     xml:space="preserve"
+     id="flowRoot3722"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:Neptune;-inkscape-font-specification:Neptune;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+     transform="matrix(0.26458333,0,0,0.26458333,65.674738,23.062493)"><flowRegion
+       id="flowRegion3724"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Neptune;-inkscape-font-specification:Neptune"><rect
+         id="rect3726"
+         width="340.08542"
+         height="143.88229"
+         x="22.593086"
+         y="17.836647"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Neptune;-inkscape-font-specification:Neptune" /></flowRegion><flowPara
+       id="flowPara3728" /></flowRoot>  <g
+     id="g30"
+     transform="matrix(4.9010855,0,0,4.9010855,0.4079315,0.64711966)"
+     style="stroke:#000000;stroke-width:0.10787499">
+    <path
+       d="m 3.7655942,8.4666662 1.420979,-2.048578 1.0065267,2.048578 H 7.5785544 L 3.7892772,0 0,8.4666662 H 1.3854544 L 2.4156642,6.4062467 Z m 0,-2.2854078 L 3.0314217,5.0326337 3.7892772,3.1853611 4.5708156,5.0799997 Z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:0;font-family:Neptune;-inkscape-font-specification:'Neptune, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:-0.79374999px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.10787499"
+       id="path15"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 9.8693208,1.3304762 c 0.8708552,0 2.0199032,0.012094 2.0199032,1.1006663 0,0.556381 -0.447523,0.858762 -0.846664,0.9918096 z m 2.5399992,7.13619 c 0,0 1.451429,0 1.451429,0 L 11.659416,4.535714 C 12.772178,4.1728569 13.316463,3.3624759 13.316463,2.3706664 13.316463,0.79828566 12.010178,-1.115141e-7 10.35313,-1.115141e-7 H 7.6921779 L 9.5064636,3.5197139 H 7.8373208 c 0,0 0,1.2216191 0,1.2458096 v 3.7011427 c 0.012096,0 1.3909524,0 1.3909524,0 V 4.7655235 c 0,0 0.9192378,0 0.9192378,0 z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:6.3499999px;line-height:0;font-family:Neptune;-inkscape-font-specification:'Neptune, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:-0.79374999px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.10787499"
+       id="path17"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
