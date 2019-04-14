@@ -19,5 +19,5 @@ Will use static generator like Gatsby in the future and fetch the information fr
 - [ ] Link Resume
 - [ ] Projects page
 - [ ] Dark/Light mode switch
-- [ ] ~~ Change text depending on region ENG-ES(LA) ~~ (Can't do this in a viable way)
+- [ ] <del>Change text depending on region ENG-ES </del> (Can't do this in a viable way)
 - [ ] Responsive layout (just works for mobile now)
