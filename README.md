@@ -2,27 +2,22 @@
 
 **For now it only looks good in mobile.**
 
-My personal website. Using just HTML (Semantic), CSS (Flexbox, BEM naming styling) and JavaScript.
+My persoebsite. Using just HTML (Semantic), CSS (Flexbox, BEM naming styling) and JavaScript.
 
 Will use static generator like Gatsby in the future and fetch the information from markdown is this repository, but right now I'm focusing just in the design.
 
 ## TO-DO Design system
 - [ ] Color palette
-- [ ] Font Size and Weight
-- [ ] Line Height
-- [ ] Icon Sizing
-- [ ] Spacing and sizing
+- [ ] Font Size
 - [ ] Box Shadows (Height of elements)
-
-Probably add more items.
 
 ## TO-DO Website
 - [x] Navbar
 - [x] Home Page
-- [ ] Favicon
-- [ ] Dark/Light mode switch
-- [ ] Change text depending on region ENG-ES(LA)
-- [ ] Footer
-- [ ] Projects page
+- [x] Favicon
+- [x] Footer
 - [ ] Link Resume
+- [ ] Projects page
+- [ ] Dark/Light mode switch
+- [ ] ~~ Change text depending on region ENG-ES(LA) ~~ (Can't do this in a viable way)
 - [ ] Responsive layout (just works for mobile now)
