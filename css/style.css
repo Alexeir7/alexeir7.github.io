@@ -65,11 +65,14 @@ body {
 .header__toggle {
   width: 50px;
   flex: initial;
-  color: white;
   height: 100%;
   text-align: center;
   line-height: 50px;
   cursor: pointer;
+}
+
+.header__toggle__svg {
+  pointer-events: none;
 }
 
 .nav {
@@ -175,9 +178,16 @@ h1 {
   display: flex;
   width: 100%;
   justify-content: space-around;
+  padding: 15px;
+  align-items: center;
 }
 
 .footer__icon {
   color: white;
   text-decoration: none;
+  align-self: baseline;
+}
+
+.footer__phone {
+  display: flex;
 }

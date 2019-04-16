@@ -56,7 +56,12 @@
       </a>
       <a class="header__home" href="#">Home</a>
       <a class="header__toggle" onclick="showHideNav();">
-        <i id="chevron" class="fas fa-chevron-down fa-lg"></i>
+        <object
+          class="header__toggle__svg"
+          id="chevron"
+          data="/images/baseline-chevron_left-24px.svg"
+          type="image/svg+xml"
+        ></object>
       </a>
     </header>
     <nav class="nav nav--hide" id="nav">
@@ -98,9 +103,6 @@
       </article>
     </main>
     <footer class="footer">
-      <p class="footer__icon">
-        <i class="fas fa-phone fa-lg"></i>(+504) 9483-3503
-      </p>
       <div class="footer__container">
         <a
           class="footer__icon"
@@ -112,18 +114,21 @@
         <a
           class="footer__icon"
           target="_blank"
-          href="https://github.com/Alexeir7"
+          href="mailto:alexei.rodz95@gmail.com"
         >
-          <i class="fab fa-github-square fa-2x"></i>
+          <img src="/images/baseline-mail-24px.svg" alt="" />
         </a>
         <a
           class="footer__icon"
           target="_blank"
-          href="mailto:alexei.rodz95@gmail.com"
+          href="https://github.com/Alexeir7"
         >
-          <i class="far fa-envelope fa-2x"></i>
+          <i class="fab fa-github-square fa-2x"></i>
         </a>
       </div>
+      <p class="footer__phone">
+        <img src="/images/baseline-call-24px.svg" alt="" />(+504)9483-3503
+      </p>
     </footer>
   </body>
 </html>
