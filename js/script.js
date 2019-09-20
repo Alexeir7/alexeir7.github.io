@@ -1,3 +1,4 @@
+/*
 function showHideNav() {
   var nav = document.getElementById('nav');
   var chevron = document.getElementById('chevron');
@@ -34,3 +35,4 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 };
+*/
